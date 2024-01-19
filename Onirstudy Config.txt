@@ -1,0 +1,37 @@
+Open the Credential Manager:
+
+	* Press Windows + S to open the search bar.
+	* Type "Credential Manager" and press Enter.
+	* In Credential Manager, look for any entries related to Git or GitHub.
+
+	  Remove the stored credentials associated with GitHub.
+
+
+Change Global Email Configuration:
+	* git config --global user.email "your-new-email@example.com"
+	* git config --global user.user "onirstudy"
+
+
+To view all Git configuration settings, you can use the following command in your terminal or Git Bash:
+
+	* git config --global --list
+	* git config --list
+	You can also view specific configuration values by specifying the key:
+	* git config user.name
+	* git config user.email
+
+	OR SET
+	* git config user.name onirstudy
+	* git config user.email onirstudy@gmail.com
+
+
+git remote -v
+
+-------------------------------------------------------------------
+echo "# collections" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/onirstudy/collections.git
+git push -u origin main

@@ -2,9 +2,18 @@ Open the Credential Manager:
 
 	* Press Windows + S to open the search bar.
 	* Type "Credential Manager" and press Enter.
-	* In Credential Manager, look for any entries related to Git or GitHub.
+	* In Credential Manager, look for any entries related to Git or GitHub.[Windows Credential]
 
 	  Remove the stored credentials associated with GitHub.
+
+Remove Git Configurations:
+
+	Open the Git Bash terminal.
+	Run the following commands to remove the global configurations:
+
+	* git config --global --unset user.name
+	* git config --global --unset user.email
+	* git config --global --unset credential.helper
 
 
 Change Global Email Configuration:
